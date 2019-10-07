@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Interfatecs</string>
+    <string name="logoContentDescription">Logotipo</string>
+    <string name="txtCompetitionStatus">Status</string>
+    <string name="txtRemainingTime">Tempo restante: </string>
+    <string name="btnHomePage">Button</string>
+
+</resources>

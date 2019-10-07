@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="logo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/seaGreen</item>
+        <item name="android:src">@drawable/logo</item>
+    </style>
+
+    <style name="bigText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/bigTextSize</item>
+        <item name="android:textColor">@color/bigText</item>
+    </style>
+
+    <style name="normalText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/normalTextSize</item>
+        <item name="android:textColor">@color/normalText</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/normalTextSize</item>
+        <item name="android:strokeWidth">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:backgroundTint">@color/background</item>
+        <item name="android:textColor">@color/seaGreen</item>
+    </style>
+</resources>
