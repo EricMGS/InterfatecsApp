@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ericmgs.interfatecsapp.ui.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_edicao_atual"
+        android:name="ericmgs.interfatecsapp.ui.EdicaoAtualFragment"
+        android:label="@string/menu_edicao_atual"
+        tools:layout="@layout/fragment_edicao_atual" />
+
+    <fragment
+        android:id="@+id/nav_preparacao"
+        android:name="ericmgs.interfatecsapp.ui.preparacaoFragment"
+        android:label="@string/menu_preparacao"
+        tools:layout="@layout/fragment_preparacao" />
+
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="ericmgs.interfatecsapp.ui.sobreFragment"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/fragment_sobre" />
+
+    <fragment
+        android:id="@+id/nav_estatisticas"
+        android:name="ericmgs.interfatecsapp.ui.EstatisticasFragment"
+        android:label="@string/menu_estatisticas"
+        tools:layout="@layout/fragment_estatisticas" />
+
+    <fragment
+        android:id="@+id/nav_edicoes_anteriores"
+        android:name="ericmgs.interfatecsapp.ui.EdicoesAnterioresFragment"
+        android:label="@string/menu_edicoes_anteriores"
+        tools:layout="@layout/fragment_edicoes_anteriores" />
+
+    <fragment
+        android:id="@+id/nav_formato_e_regras"
+        android:name="ericmgs.interfatecsapp.ui.FormatoERegrasFragment"
+        android:label="@string/menu_formato_e_regras"
+        tools:layout="@layout/fragment_formato_e_regras" />
+</navigation>
