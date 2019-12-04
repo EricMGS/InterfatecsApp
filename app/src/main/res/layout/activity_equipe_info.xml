@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EquipeInfoActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informações da equipe"
+        android:layout_gravity="center"
+        android:textSize="@dimen/titleTextSize"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome da equipe: "
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/bodyTextSize"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtInfoNomeDaEquipe"
+            android:textSize="@dimen/bodyTextSize"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cidade: "
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/bodyTextSize"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtInfoCidade"
+            android:textSize="@dimen/bodyTextSize"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Café com leite: "
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/bodyTextSize"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtInfoCafeComLeite"
+            android:textSize="@dimen/bodyTextSize"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primeira Participação: "
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/bodyTextSize"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtInfoPrimeiraParticipacao"
+            android:textSize="@dimen/bodyTextSize"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Participantes"
+        android:layout_gravity="center"
+        android:textSize="@dimen/titleTextSize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfoParticipante1"
+        android:text="Participante 1"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/bodyTextSize"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RA: "
+            android:textSize="@dimen/bodyTextSize"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtInfoRA1"
+            android:textSize="@dimen/bodyTextSize"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfoParticipante2"
+        android:text="Participante 2"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/bodyTextSize"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RA: "
+            android:textSize="@dimen/bodyTextSize"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtInfoRA2"
+            android:textSize="@dimen/bodyTextSize"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfoParticipante3"
+        android:text="Participante 3"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RA: "
+            android:textSize="@dimen/bodyTextSize"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtInfoRA3"
+            android:textSize="@dimen/bodyTextSize"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfoReserva"
+        android:text="Reserva: "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/bodyTextSize"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RA: "
+            android:textSize="@dimen/bodyTextSize"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtInfoRA4"
+            android:textSize="@dimen/bodyTextSize"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfoCoach"
+        android:text="Coach: "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/bodyTextSize"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textSize="@dimen/bodyTextSize">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RG: "
+            android:textSize="@dimen/bodyTextSize"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtInfoRG"
+            android:textSize="@dimen/bodyTextSize"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            style="@style/button"
+            android:text="Excluir"
+            android:id="@+id/btnInfoExcluir"
+            android:layout_weight="1"/>
+
+        <Button
+            style="@style/button"
+            android:text="Atualizar"
+            android:id="@+id/btnInfoAtualizar"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

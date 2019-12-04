@@ -79,13 +79,42 @@
             app:layout_constraintTop_toBottomOf="@id/edtCadIntegrante3" />
 
         <EditText
+            android:id="@+id/edtCadReserva"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="Nome do Reserva"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edtCadRA3"/>
+
+        <EditText
+            android:id="@+id/edtCadRA4"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="RA do Reserva"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edtCadReserva" />
+
+        <EditText
             android:id="@+id/edtCoach"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:hint="Nome do Coach"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/edtCadRA3"/>
+            app:layout_constraintTop_toBottomOf="@id/edtCadRA4"/>
+
+        <EditText
+            android:id="@+id/edtRG"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="RG do Coach"
+            android:inputType="number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edtCoach"/>
 
         <TextView
             android:id="@+id/txtCadCidade"
@@ -94,7 +123,7 @@
             android:gravity="center"
             android:text="Cidade:"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/edtCoach"
+            app:layout_constraintTop_toBottomOf="@id/edtRG"
             app:layout_constraintEnd_toStartOf="@id/spnCidade"/>
 
         <Spinner
@@ -104,7 +133,7 @@
             android:entries="@array/cidades"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/edtCoach" />
+            app:layout_constraintTop_toBottomOf="@id/edtRG" />
 
         <RadioGroup
             android:id="@+id/grpTipoEquipe"

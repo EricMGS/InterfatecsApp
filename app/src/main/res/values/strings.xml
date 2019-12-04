@@ -10,9 +10,10 @@
     <string name="menu_edicao_atual">Edição Atual</string>
     <string name="menu_preparacao">Como se preparar</string>
     <string name="menu_sobre">Sobre o evento</string>
-    <string name="menu_estatisticas">Estatísticas</string>
+    <string name="menu_ranking">Ranking</string>
     <string name="menu_edicoes_anteriores">Edições Anteriores</string>
     <string name="menu_formato_e_regras">Formato e Regras</string>
+    <string name="menu_como_chegar">Como chegar</string>
 
     <string name="status_inscricoes_abertas">Inscrições abertas</string>
     <string name="status_primeira_fase">Primeira Fase</string>
@@ -220,4 +221,9 @@
         <item>Tatuí</item>
         <item>Taubaté</item>
     </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_maps_key">AIzaSyBMPqjC7tAN9ozdgrH7a6SZ9cD5m0a29Pg</string>
 </resources>

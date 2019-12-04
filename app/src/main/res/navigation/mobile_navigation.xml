@@ -30,10 +30,10 @@
         tools:layout="@layout/fragment_sobre" />
 
     <fragment
-        android:id="@+id/nav_estatisticas"
-        android:name="ericmgs.interfatecsapp.ui.EstatisticasFragment"
-        android:label="@string/menu_estatisticas"
-        tools:layout="@layout/fragment_estatisticas" />
+        android:id="@+id/nav_ranking"
+        android:name="ericmgs.interfatecsapp.ui.RankingFragment"
+        android:label="@string/menu_ranking"
+        tools:layout="@layout/fragment_ranking" />
 
     <fragment
         android:id="@+id/nav_edicoes_anteriores"
@@ -46,4 +46,10 @@
         android:name="ericmgs.interfatecsapp.ui.FormatoERegrasFragment"
         android:label="@string/menu_formato_e_regras"
         tools:layout="@layout/fragment_formato_e_regras" />
+
+    <fragment
+        android:id="@+id/nav_como_chegar"
+        android:name="ericmgs.interfatecsapp.ui.ComoChegarFragment"
+        android:label="@string/menu_como_chegar"
+        tools:layout="@layout/fragment_como_chegar" />
 </navigation>

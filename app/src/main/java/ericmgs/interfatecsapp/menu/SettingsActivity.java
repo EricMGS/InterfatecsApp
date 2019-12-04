@@ -14,8 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ericmgs.interfatecsapp.R;
-import ericmgs.interfatecsapp.auxiliar.ContestStatus;
-import ericmgs.interfatecsapp.recycler.RecyclerAdapter;
+import ericmgs.interfatecsapp.recycler.RecyclerAdapterSettings;
 
 public class SettingsActivity extends AppCompatActivity {
     Context context;
@@ -27,7 +26,7 @@ public class SettingsActivity extends AppCompatActivity {
 
         List<String> listaLabels = criaLabelsBotoes();
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerSettings);
-        recyclerView.setAdapter(new RecyclerAdapter(listaLabels, this));
+        recyclerView.setAdapter(new RecyclerAdapterSettings(listaLabels, this));
 
         RecyclerView.LayoutManager layout = new LinearLayoutManager(SettingsActivity.this);
         recyclerView.setLayoutManager(layout);

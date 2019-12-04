@@ -47,6 +47,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(LoginActivity.this, registerActivity.class);
+                it.putExtra("atualizar", "false");
                 startActivityForResult(it, 3);
             }
         });

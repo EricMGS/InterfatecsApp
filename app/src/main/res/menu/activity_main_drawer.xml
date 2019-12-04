@@ -17,15 +17,17 @@
             android:id="@+id/nav_sobre"
             android:title="@string/menu_sobre" />
         <item
-            android:id="@+id/nav_estatisticas"
-            android:title="@string/menu_estatisticas" />
+            android:id="@+id/nav_ranking"
+            android:title="@string/menu_ranking" />
         <item
             android:id="@+id/nav_edicoes_anteriores"
             android:title="@string/menu_edicoes_anteriores" />
-
         <item
             android:id="@+id/nav_formato_e_regras"
             android:title="@string/menu_formato_e_regras" />
+        <item
+            android:id="@+id/nav_como_chegar"
+            android:title="@string/menu_como_chegar" />
     </group>
 
 </menu>

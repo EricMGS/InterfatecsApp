@@ -7,4 +7,6 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="bigTextSize">25sp</dimen>
     <dimen name="normalTextSize">22sp</dimen>
+    <dimen name="titleTextSize">27sp</dimen>
+    <dimen name="bodyTextSize">20sp</dimen>
 </resources>
